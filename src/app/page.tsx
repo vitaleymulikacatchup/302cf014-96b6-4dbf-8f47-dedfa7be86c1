@@ -7,7 +7,7 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Spa, Pool, Fitness } from 'lucide-react';
+import { Spade, PenTool, Shield } from 'lucide-react';
 
 const assetMap = [
   { "id": "heroImage", "url": "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "A luxurious hotel lobby featuring elegant architecture, rich decor, and comfortable seating under a stained glass ceiling." },
@@ -74,9 +74,9 @@ const App = () => {
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardTwo
             features={[
-              { title: "Spa", description: "Relax and rejuvenate at our world-class spa.", icon: Spa, imageSrc: assetMap.find(a => a.id === 'feature1')?.url },
-              { title: "Pool", description: "Enjoy our rooftop pool with a stunning view.", icon: Pool, imageSrc: assetMap.find(a => a.id === 'feature2')?.url },
-              { title: "Gym", description: "Stay fit with our state-of-the-art gym facilities.", icon: Fitness, imageSrc: assetMap.find(a => a.id === 'feature3')?.url }
+              { title: "Spa", description: "Relax and rejuvenate at our world-class spa.", icon: Spade, imageSrc: assetMap.find(a => a.id === 'feature1')?.url },
+              { title: "Pool", description: "Enjoy our rooftop pool with a stunning view.", icon: PenTool, imageSrc: assetMap.find(a => a.id === 'feature2')?.url },
+              { title: "Gym", description: "Stay fit with our state-of-the-art gym facilities.", icon: Shield, imageSrc: assetMap.find(a => a.id === 'feature3')?.url }
             ]}
             className="bg-pink-100"
             titleClassName="text-gray-800"
