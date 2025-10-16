@@ -79,7 +79,7 @@ const App = () => {
               { title: "Gym", description: "Stay fit with our state-of-the-art gym facilities.", icon: Shield }
             ]}
             className="bg-pink-100"
-            titleClassName="text-gray-800"
+            cardTitleClassName="text-gray-800"
           />
         </div>
       </div>
