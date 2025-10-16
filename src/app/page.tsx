@@ -74,9 +74,9 @@ const App = () => {
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardTwo
             features={[
-              { title: "Spa", description: "Relax and rejuvenate at our world-class spa.", icon: Spade, imageSrc: assetMap.find(a => a.id === 'feature1')?.url },
-              { title: "Pool", description: "Enjoy our rooftop pool with a stunning view.", icon: PenTool, imageSrc: assetMap.find(a => a.id === 'feature2')?.url },
-              { title: "Gym", description: "Stay fit with our state-of-the-art gym facilities.", icon: Shield, imageSrc: assetMap.find(a => a.id === 'feature3')?.url }
+              { title: "Spa", description: "Relax and rejuvenate at our world-class spa.", icon: Spade },
+              { title: "Pool", description: "Enjoy our rooftop pool with a stunning view.", icon: PenTool },
+              { title: "Gym", description: "Stay fit with our state-of-the-art gym facilities.", icon: Shield }
             ]}
             className="bg-pink-100"
             titleClassName="text-gray-800"
