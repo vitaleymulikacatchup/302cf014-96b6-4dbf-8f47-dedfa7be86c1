@@ -100,14 +100,8 @@ const App = () => {
         <div className="mx-auto px-4 md:px-6">
           <FooterBase
             columns={[
-              { title: "Explore", items: [
-                { label: "Rooms", href: "rooms" },
-                { label: "Dining", href: "dining" }
-              ]},
-              { title: "Connect", items: [
-                { label: "Contact", href: "contact" },
-                { label: "FAQ", href: "faq" }
-              ]}
+              { title: "Explore", items: [ { label: "Rooms", href: "rooms" }, { label: "Dining", href: "dining" } ] },
+              { title: "Connect", items: [ { label: "Contact", href: "contact" }, { label: "FAQ", href: "faq" } ] }
             ]}
             copyrightText="© 2025 Hotel Lux"
             className="bg-pink-100"

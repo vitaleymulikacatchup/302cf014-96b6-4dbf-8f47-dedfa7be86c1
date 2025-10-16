@@ -76,7 +76,6 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Hotel Lux - Luxury Stay",
   description: "Experience unparalleled luxury and comfort at Hotel Lux. Discover our amenities and stay updated with exclusive offers.",
-  canonical: "https://www.hotellux.com",
   openGraph: {
     title: "Hotel Lux - Luxury Stay",
     description: "Discover the elegance of Hotel Lux.",
